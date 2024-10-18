@@ -14,14 +14,14 @@ Find it [here](t.me/aaahwhatshouldIwear_bot).
 
 ## Setup Requirements
 
-To run this bot, you need to edit the following file:
+To run this bot, you need to add your [Telegram Bot](https://telegram.me/BotFather) token and API from [OpenWeatherMap](https://openweathermap.org/) to the following file:
 
-- **secure_list.csv**: This file contains your API keys and paths in CSV format. 
+- **secure_list.csv**: This file contains your API keys and paths. 
 
 ```csv
 source,api_key
-OpenWeatherMap,your_api_key
-Telegram,your_token
-UserCityPath,your_path.csv
-AllInquiresPath,your_path.csv
-RainNotificationsPath,your_path.csv
+OpenWeatherMap,YOUR_API_KEY
+Telegram,YOUR_TOKEN
+UserCityPath,user_cities.csv
+AllInquiresPath,all_inquiries.csv
+RainNotificationsPath,rain_users.csv
