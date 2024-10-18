@@ -1,1 +1,27 @@
-# NiceOutsideBot
+# Nice Outside
+
+Nice Outside is a Telegram bot that provides real-time weather information, alerts users about rain, and attempts to predict their satisfaction with the weather based on previous responses.
+
+Find it [here](t.me/aaahwhatshouldIwear_bot).
+
+
+## Features
+
+- **Weather Information**: Get the current temperature and weather conditions for your selected city.
+- **Umbrella Notifications**: Receive alerts when rain is expected.
+- **User-Specific Data**: The bot remembers users' selected cities for future queries, allowing for a personalized experience.
+- **Satisfaction score**: Rate your enjoyment of the weather on a scale, and the bot will learn from your feedback to predict your scores in future.
+
+## Setup Requirements
+
+To run this bot, you need to edit the following file:
+
+- **secure_list.csv**: This file contains your API keys and paths in CSV format. 
+
+```csv
+source,api_key
+OpenWeatherMap,your_api_key
+Telegram,your_token
+UserCityPath,your_path.csv
+AllInquiresPath,your_path.csv
+RainNotificationsPath,your_path.csv
